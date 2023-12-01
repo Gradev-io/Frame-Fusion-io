@@ -4,6 +4,7 @@ body {
   background: #ffffff;
   font-family: "Nunito", sans-serif;
   overflow-x: hidden;
+  width: 100vw;
 }
 
 /*---------------------------------------
@@ -842,8 +843,7 @@ footer .social-icon {
 }
 
 @media only screen and (max-width: 992px) {
-  section,
-  footer {
+  section {
     padding: 60px 0;
   }
 
