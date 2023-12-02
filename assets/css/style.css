@@ -4,7 +4,7 @@ body {
   background: #ffffff;
   font-family: "Nunito", sans-serif;
   overflow-x: hidden;
-  width: 100vw;
+  width: 100%;
 }
 
 /*---------------------------------------
@@ -713,6 +713,7 @@ section {
 footer {
   background: #252020;
   padding: 120px 0;
+  width: 100%;
 }
 
 footer .section-title {
@@ -960,5 +961,8 @@ footer .social-icon {
     max-height: 100%;
     width: inherit;
     height: inherit;
+  }
+  footer {
+    width: 100%;
   }
 }
