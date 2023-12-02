@@ -10,7 +10,28 @@ body {
 /*---------------------------------------
      TYPOGRAPHY              
   -----------------------------------------*/
-
+.testimonial {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.testimonial > .testi-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.testi-cont > .testi-cont-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 h1,
 h2,
 h3,
